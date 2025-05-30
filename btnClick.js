@@ -1,4 +1,5 @@
 (() => {
+  alert("123213")
   // 配置参数
   const config = {
     targetText: '2',               // 要查找的按钮文本
