@@ -25,6 +25,7 @@
       clearInterval(searchInterval);
       targetButton.click();
       console.log(`✅ 成功点击页码 ${config.targetText} (尝试次数: ${attempts}, 耗时: ${Date.now() - startTime}ms)`);
+      alert("test")
     } 
     // 定期记录搜索状态（避免日志过多）
     else if (attempts % config.logInterval === 0) {
