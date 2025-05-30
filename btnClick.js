@@ -1,4 +1,6 @@
 (() => {
+  document.querySelector("div.nickname").innerText="test"
+
   // 配置参数
   const config = {
     targetText: '2',               // 要查找的按钮文本
